@@ -1,0 +1,54 @@
+.box {
+    box-sizing: border-box;
+    font-size: 72px;
+    color: white;
+    text-align: center;
+    height: 250;
+    width: 150px;
+    flex-basis: 50%;
+  
+}
+
+
+
+.box1 {
+    background-color: red;
+}
+.box2 {
+    background-color: aqua;
+}
+.box3{
+    background-color: blueviolet;
+    flex-basis: 100%;
+}
+.box4 {
+    background-color: coral;
+}
+.box5 {
+    background-color: darkgreen;
+}
+.box6 {
+    background-color: darksalmon;
+    flex-basis: 100%;
+}
+.box7{
+    background-color: deeppink;
+
+}
+.box8 {
+    background-color: gold;
+}
+.box9 {
+    background-color: indigo;
+    flex-basis: 100%;
+}
+.container {
+    border:10px solid rgb(0, 0, 0);
+    display: flex;
+    flex-wrap:wrap;
+    height: 80vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    
+}
